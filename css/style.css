@@ -1756,25 +1756,257 @@ section .advantages-title {
   }
 }
 
+.contacts-content{
+  display: flex;
+}
+
+.contacts-list{
+  padding: 34px;
+}
+
+.contacts-list:last-child{
+  border-left: 1px solid #2529E8;
+}
+
+.contacts-list__item{
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 127.023%;
+  text-transform: uppercase;
+}
+
+.contacts-list__item--title{
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 127.023%;
+  margin-bottom: 16px;
+}
+
+.contacts{
+  display: flex;
+  justify-content: flex-end;
+  gap: 282px;
+}
+
+.contacts-content{
+  padding-top: 60px;
+}
+
+.main-contacts{
+  margin-bottom: 300px;
+}
+
+@media (max-width: 1200px) {
+  .contacts-list__item{
+    font-size: 13.54px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 127.023%;
+    text-transform: uppercase;
+  }
+
+  .contacts-list__item--title{
+    font-size: 22.566px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 127.023%;
+    margin-bottom: 11px;
+  }
+
+  .contacts{
+    display: flex;
+    justify-content: flex-end;
+    gap: 166px;
+  }
+
+  .contacts-content{
+    padding-top: 60px;
+  }
 
 
+}
+
+@media (max-width: 1000px){
+  .main-contacts {
+    background: url(../assets/img/r-768.svg) no-repeat left bottom,
+    url(../assets/img/line-768.svg) no-repeat 184px 99%, url(../assets/img/bg-p-768.svg) repeat-x center bottom;
+  }
+
+  .contacts-list__item{
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 127.023%;
+    text-transform: uppercase;
+  }
+
+  .contacts-list__item--title{
+    font-size: 16.991px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 127.023%;
+    margin-bottom: 11px;
+  }
+
+  .contacts{
+    display: flex;
+    justify-content: flex-end;
+    gap: 130px;
+  }
+
+  .contacts-content{
+    padding-top: 22px;
+  }
+
+  .contacts-list{
+    padding: 16px;
+  }
+
+  .contacts-list:last-child{
+    padding-left: 26px;
+  }
+}
+
+@media (max-width: 765px) {
+  .main-contacts {
+    background: url(../assets/img/r-768.svg) no-repeat left bottom,
+    url(../assets/img/line-768.svg) no-repeat 184px 99.2%,
+    url(../assets/img/bg-p-768.svg) repeat-x center top;
+  }
+
+  .contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 35px;
+  }
+
+  .contacts-content{
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .contacts-list:last-child{
+    border-top: 1px solid #2529E8;
+    border-left: none;
+  }
+
+  .contacts-content {
+    padding-top: 0;
+  }
+
+  .main-contacts .title {
+    margin-left: 60px;
+  }
+
+  .contacts-list {
+    padding: 16px 7px 16px 0;
+  }
+
+  .contacts-list:last-child{
+    padding-left: 0;
+  }
+}
+
+.main-feedback {
+  padding: 111px 0 83px;
+  background: url(../assets/img/bg-p.svg) repeat-x center center;
+  margin-bottom: 220px;
+}
+
+.main-feedback-content {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.main-feedback .title{
+  align-self: flex-end;
+}
+
+.feedback-text{
+  max-width: 956px;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
 
 
+@media (max-width: 1300px) {
+  .feedback-text{
+    max-width: 640px;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.141px;
+  }
+
+  .main-feedback .title{
+    max-width: 672px;
+  }
+
+  .main-feedback-content {
+    gap: 42px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .main-feedback .title {
+    max-width: 485px;
+    font-size: 18.75px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22.064px;
+  }
+
+  .main-feedback-content {
+    gap: 31px;
+  }
+
+  .feedback-text{
+    max-width: 495px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16.605px;
+  }
+  .main-feedback {
+    padding: 50px 0 12px;
+    margin: 0 0 100px 0;
+    background: url(../assets/img/fb-bg.svg) repeat-x center center;
+  }
+}
 
 
+@media (max-width: 768px) {
+  .main-feedback .title {
+    max-width: 317px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28.564px;
+  }
 
+  .main-feedback-content {
+    gap: 47px;
+  }
 
-
-
-
-
-
-
-
-
-
-
-
+  .feedback-text{
+    width: 87%;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24.605px;
+  }
+  .main-feedback {
+    padding: 0 0 12px;
+    margin: 0 0 100px 0;
+    background: url(../assets/img/fb-bg.svg) repeat-x center top;
+  }
+}
 
 
 
