@@ -14,6 +14,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body.no-scroll {
+  overflow: hidden;
+}
+
 .wrapper {
   max-width: 1344px;
   padding: 0 32px;
@@ -578,7 +582,7 @@ section .advantages-title {
   margin-left: 30px;
 }
 
-.burger{
+.burger {
   display: none;
 }
 
@@ -1040,11 +1044,11 @@ section .advantages-title {
     padding: 17px 28px 33px 25px;
   }
 
-  .process-elem:nth-child(even){
+  .process-elem:nth-child(even) {
     padding-left: 25px;
   }
 
-  .circle-list{
+  .circle-list {
     gap: 5px;
     width: 45px;
     right: 33px;
@@ -1066,7 +1070,7 @@ section .advantages-title {
     margin: 0;
   }
 
-  .btn-blue{
+  .btn-blue {
     width: 153.505px;
     height: 32.545px;
     font-size: 13.659px;
@@ -1074,15 +1078,15 @@ section .advantages-title {
     font-weight: 500;
   }
 
-  .tariffs{
-    padding: 0 0  70px 0;
+  .tariffs {
+    padding: 0 0 70px 0;
   }
 
   .tariffs-list {
     margin-top: 123px;
   }
 
-  .tariffs-elem__price{
+  .tariffs-elem__price {
     min-width: 90px;
     height: 30px;
     font-size: 13.826px;
@@ -1094,7 +1098,7 @@ section .advantages-title {
     padding: 41px 0 58px 26px;
   }
 
-  .tariffs-elem__title{
+  .tariffs-elem__title {
     font-size: 14.268px;
     font-style: normal;
     font-weight: 700;
@@ -1102,7 +1106,7 @@ section .advantages-title {
     margin-bottom: 12px;
   }
 
-  .tariffs-description__item{
+  .tariffs-description__item {
     font-size: 9.878px;
     line-height: 14.268px;
     max-width: 190px;
@@ -1115,7 +1119,7 @@ section .advantages-title {
     top: 5px;
   }
 
-  .tariffs-elem__link.white-btn{
+  .tariffs-elem__link.white-btn {
     width: 155.299px;
     height: 32.926px;
     font-size: 13.719px;
@@ -1124,7 +1128,7 @@ section .advantages-title {
     line-height: 16.808px;
   }
 
-  .tariffs-elem .btn-blue{
+  .tariffs-elem .btn-blue {
     width: 155.299px;
     height: 32.926px;
     font-size: 13.17px;
@@ -1136,7 +1140,7 @@ section .advantages-title {
     margin: 0 auto 18px;
   }
 
-  .advantages-description{
+  .advantages-description {
     max-width: 496px;
     font-size: 14.103px;
     font-style: normal;
@@ -1153,7 +1157,7 @@ section .advantages-title {
     margin-bottom: 76px;
   }
 
-  .about-us-elem__title{
+  .about-us-elem__title {
     font-size: 14.29px;
     font-style: normal;
     font-weight: 700;
@@ -1161,7 +1165,7 @@ section .advantages-title {
     margin-bottom: 8px;
   }
 
-  .about-us-elem__description{
+  .about-us-elem__description {
     max-width: 227px;
     font-size: 9.893px;
     font-style: normal;
@@ -1169,7 +1173,7 @@ section .advantages-title {
     line-height: 14.29px;
   }
 
-  .about-us-elem{
+  .about-us-elem {
     min-height: 195px;
     padding: 19px 0 18px 16px;
   }
@@ -1186,7 +1190,7 @@ section .advantages-title {
     padding: 20px 0 63px;
   }
 
-  .services-head .title{
+  .services-head .title {
     max-width: 412px;
     margin: 0 auto 29px;
   }
@@ -1200,7 +1204,7 @@ section .advantages-title {
 
   }
 
-  .services-elem .wrapper{
+  .services-elem .wrapper {
     font-size: 14.159px;
     font-style: normal;
     font-weight: 400;
@@ -1212,11 +1216,11 @@ section .advantages-title {
     padding: 26px 34px 17px 0;
   }
 
-  .form{
+  .form {
     max-width: 344px;
   }
 
-  .services-advice__title{
+  .services-advice__title {
     font-size: 11.981px;
     font-style: normal;
     font-weight: 700;
@@ -1225,7 +1229,7 @@ section .advantages-title {
     margin-bottom: 5px;
   }
 
-  .services-advice__text{
+  .services-advice__text {
     max-width: 153px;
     font-size: 9.803px;
     font-style: normal;
@@ -1243,7 +1247,7 @@ section .advantages-title {
     letter-spacing: -0.272px;
   }
 
-  .form-group input::placeholder{
+  .form-group input::placeholder {
     font-size: 8.714px;
     font-style: normal;
     font-weight: 400;
@@ -1251,7 +1255,7 @@ section .advantages-title {
     letter-spacing: -0.272px;
   }
 
-  .form-row{
+  .form-row {
     gap: 20px;
   }
 
@@ -1287,7 +1291,7 @@ section .advantages-title {
     margin-top: 19px;
   }
 
-  .footer-links__el a{
+  .footer-links__el a {
     font-size: 8.714px;
     font-style: normal;
     font-weight: 400;
@@ -1295,7 +1299,7 @@ section .advantages-title {
     letter-spacing: 0.545px;
   }
 
-  .footer-links__el a.phone-link{
+  .footer-links__el a.phone-link {
     font-size: 10.892px;
     font-style: normal;
     font-weight: 400;
@@ -1311,7 +1315,7 @@ section .advantages-title {
     margin-bottom: 43px;
   }
 
-  .footer-bottom p{
+  .footer-bottom p {
     font-size: 4.901px;
     font-style: normal;
     font-weight: 400;
@@ -1322,36 +1326,36 @@ section .advantages-title {
 
 
 @media (max-width: 765px) {
-  .header .btn-form{
+  .header .btn-form {
     display: none;
   }
 
-  .burger{
+  .burger {
     position: relative;
     z-index: 3;
     display: block;
     margin-top: 6px;
   }
 
-  .header-logo{
+  .header-logo {
     position: relative;
     z-index: 3;
     width: 116px;
     height: 33.487px;
   }
 
-  .burger-elem-cross{
+  .burger-elem-cross {
     display: none;
   }
 
-  .burger.active .burger-elem-cross{
+  .burger.active .burger-elem-cross {
     display: block;
   }
   .burger.active .burger-elem {
     display: none;
   }
 
-  .nav{
+  .nav {
     position: fixed;
     top: 0;
     display: flex;
@@ -1361,31 +1365,31 @@ section .advantages-title {
     width: 100%;
     height: 100%;
     transition: .3s;
-    background: #FFF;
+    background: #fff;
     z-index: 2;
   }
 
-  .nav.active{
+  .nav.active {
     right: 0;
   }
 
-  .nav-list{
+  .nav-list {
     flex-direction: column;
     align-items: center;
     gap: 36px;
   }
 
-  .nav-list__item:not(:last-child){
+  .nav-list__item:not(:last-child) {
     margin: 0;
   }
 
-  .nav-list__item a{
+  .nav-list__item a {
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
   }
 
-  .header-container{
+  .header-container {
     align-items: flex-start;
   }
 
@@ -1395,7 +1399,7 @@ section .advantages-title {
     line-height: 120%;
   }
 
-  .main-content{
+  .main-content {
     padding-right: 0;
   }
 
@@ -1403,8 +1407,8 @@ section .advantages-title {
     padding: 0px 0 75px;
     margin: 0;
     background: url(../assets/img/r-414.svg) no-repeat left bottom,
-                url(../assets/img/line-414.svg) no-repeat 207px 99%,
-                url(../assets/img/bg-p-414.svg) repeat-x center top;
+    url(../assets/img/line-414.svg) no-repeat 207px 99%,
+    url(../assets/img/bg-p-414.svg) repeat-x center top;
   }
 
   .main-content {
@@ -1415,7 +1419,7 @@ section .advantages-title {
     padding: 30px 0 73px;
   }
 
-  .main-content .btn-blue{
+  .main-content .btn-blue {
     width: 207.533px;
     height: 44px;
     margin: 0;
@@ -1431,26 +1435,26 @@ section .advantages-title {
     margin-bottom: 30px;
   }
 
-  .process .process-head .title{
+  .process .process-head .title {
     max-width: 317px;
     font-size: 22px;
     line-height: 118%;
     align-self: flex-end;
   }
 
-  .description-block{
+  .description-block {
     font-weight: 700;
   }
 
-  .process-list{
+  .process-list {
     flex-direction: column;
   }
 
-  .process-elem{
+  .process-elem {
     width: 100%;
   }
 
-  .process-elem:nth-child(even){
+  .process-elem:nth-child(even) {
     border-left: none;
   }
 
@@ -1462,7 +1466,7 @@ section .advantages-title {
     padding-left: 0;
   }
 
-  .process-elem__title{
+  .process-elem__title {
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -1470,7 +1474,7 @@ section .advantages-title {
     margin-bottom: 14px;
   }
 
-  .process-elem__subtitle{
+  .process-elem__subtitle {
     max-width: 284px;
     font-size: 16px;
     font-style: normal;
@@ -1479,18 +1483,18 @@ section .advantages-title {
     margin-bottom: 8px;
   }
 
-  .process-elem__text{
+  .process-elem__text {
     max-width: 294px;
     font-size: 14px;
     line-height: 19.787px;
   }
 
-  .process-elem__time{
+  .process-elem__time {
     font-size: 14px;
     line-height: 19.787px;
   }
 
-  .circle-list{
+  .circle-list {
     width: 57.838px;
     height: 36.529px;
     right: 0;
@@ -1502,15 +1506,15 @@ section .advantages-title {
     height: 15.5px;
   }
 
-  .process-elem:nth-last-child(-n+2){
+  .process-elem:nth-last-child(-n+2) {
     border-bottom: 1px solid #2529e8;
   }
 
-  .process-elem:nth-last-child(-n+1){
+  .process-elem:nth-last-child(-n+1) {
     border-bottom: none;
   }
 
-  .tariffs-head{
+  .tariffs-head {
     flex-direction: column;
     gap: 16px;
   }
@@ -1521,17 +1525,17 @@ section .advantages-title {
     align-self: flex-end;
   }
 
-  .tariffs-list{
+  .tariffs-list {
     flex-direction: column;
     margin-top: 206px;
     gap: 183px;
   }
 
-  .tariffs-elem{
+  .tariffs-elem {
     width: 100%;
   }
 
-  .tariffs-elem__title{
+  .tariffs-elem__title {
     font-size: 22.34px;
     font-style: normal;
     font-weight: 700;
@@ -1539,11 +1543,11 @@ section .advantages-title {
     margin-bottom: 23px;
   }
 
-  .tariffs-description{
+  .tariffs-description {
     gap: 13px;
   }
 
-  .tariffs-description__item{
+  .tariffs-description__item {
     max-width: 296px;
     font-size: 15.466px;
     font-style: normal;
@@ -1551,7 +1555,7 @@ section .advantages-title {
     line-height: 22.34px;
   }
 
-  .tariffs-elem__price{
+  .tariffs-elem__price {
     min-width: 176px;
     height: 56px;
     font-size: 26.903px;
@@ -1562,7 +1566,7 @@ section .advantages-title {
   }
 
   .tariffs-elem:not(:first-child) {
-   border: none;
+    border: none;
   }
 
   .tariffs-elem {
@@ -1580,7 +1584,7 @@ section .advantages-title {
     right: 30px;
   }
 
-  .tariffs-elem__link.white-btn{
+  .tariffs-elem__link.white-btn {
     width: 207.533px;
     height: 44px;
     margin-left: 40px;
@@ -1590,7 +1594,7 @@ section .advantages-title {
     line-height: 29.994px;
   }
 
-  .tariffs-elem__link.btn-blue{
+  .tariffs-elem__link.btn-blue {
     width: 207.533px;
     height: 44px;
     font-size: 18px;
@@ -1605,7 +1609,7 @@ section .advantages-title {
     text-align: left;
   }
 
-  .advantages-description{
+  .advantages-description {
     max-width: 332px;
     margin-bottom: 36px;
     font-size: 16px;
@@ -1614,7 +1618,7 @@ section .advantages-title {
     line-height: 23.773px;
   }
 
-  .btn-blue{
+  .btn-blue {
     width: 207.533px;
     height: 44px;
     font-size: 18px;
@@ -1622,7 +1626,7 @@ section .advantages-title {
     font-weight: 500;
   }
 
-  .about-us{
+  .about-us {
     padding-top: 70px;
   }
 
@@ -1633,21 +1637,21 @@ section .advantages-title {
     gap: 12px;
   }
 
-  .about-us-list{
+  .about-us-list {
     flex-direction: column;
   }
 
-  .about-us-elem{
+  .about-us-elem {
     min-height: 194px;
     width: 100%;
   }
 
-  .about-us-elem:nth-child(even){
+  .about-us-elem:nth-child(even) {
     border-left: none;
     padding-left: 0;
   }
 
-  .about-us-elem__title{
+  .about-us-elem__title {
     font-size: 18.073px;
     font-style: normal;
     font-weight: 700;
@@ -1655,7 +1659,7 @@ section .advantages-title {
     margin-bottom: 11px;
   }
 
-  .about-us-elem__description{
+  .about-us-elem__description {
     max-width: 285px;
     font-size: 12.512px;
     font-style: normal;
@@ -1667,25 +1671,25 @@ section .advantages-title {
     padding: 37px 0 69px 0;
   }
 
-  .about-us-elem:nth-child(-n + 2){
+  .about-us-elem:nth-child(-n + 2) {
     padding-top: 37px;
   }
 
-  .about-us-elem:nth-last-child(-n+2){
+  .about-us-elem:nth-last-child(-n+2) {
     border-bottom: 1px solid #2529e8;
   }
 
-  .about-us-elem:nth-last-child(-n+1){
+  .about-us-elem:nth-last-child(-n+1) {
     border-bottom: none;
   }
 
-  .services-head .title{
+  .services-head .title {
     margin: 0 auto 35px;
     text-align: left;
     max-width: 291px;
   }
 
-  .services-elem .wrapper{
+  .services-elem .wrapper {
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -1703,7 +1707,7 @@ section .advantages-title {
     margin: 0 0 0 auto;
   }
 
-  .form .btn-blue{
+  .form .btn-blue {
     width: 114.365px;
     height: 32.676px;
     font-size: 9.803px;
@@ -1712,15 +1716,15 @@ section .advantages-title {
     line-height: 14.159px;
   }
 
-  .footer-bottom{
+  .footer-bottom {
     display: none;
   }
 
-  .footer-logo{
+  .footer-logo {
     width: 120.296px;
     height: 34.727px;
   }
-  .footer-links{
+  .footer-links {
     margin-top: 0;
     gap: 10px;
   }
@@ -1730,14 +1734,14 @@ section .advantages-title {
     align-items: flex-end;
   }
 
-  .footer-links__el a.phone-link{
+  .footer-links__el a.phone-link {
     font-size: 14.851px;
     font-style: normal;
     font-weight: 400;
     line-height: 15.594px;
   }
 
-  .footer-links__el a{
+  .footer-links__el a {
     font-size: 11.881px;
     font-style: normal;
     font-weight: 400;
@@ -1756,19 +1760,19 @@ section .advantages-title {
   }
 }
 
-.contacts-content{
+.contacts-content {
   display: flex;
 }
 
-.contacts-list{
+.contacts-list {
   padding: 34px;
 }
 
-.contacts-list:last-child{
-  border-left: 1px solid #2529E8;
+.contacts-list:last-child {
+  border-left: 1px solid #2529e8;
 }
 
-.contacts-list__item{
+.contacts-list__item {
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -1776,7 +1780,7 @@ section .advantages-title {
   text-transform: uppercase;
 }
 
-.contacts-list__item--title{
+.contacts-list__item--title {
   font-size: 30px;
   font-style: normal;
   font-weight: 500;
@@ -1784,22 +1788,22 @@ section .advantages-title {
   margin-bottom: 16px;
 }
 
-.contacts{
+.contacts {
   display: flex;
   justify-content: flex-end;
   gap: 282px;
 }
 
-.contacts-content{
+.contacts-content {
   padding-top: 60px;
 }
 
-.main-contacts{
+.main-contacts {
   margin-bottom: 300px;
 }
 
 @media (max-width: 1200px) {
-  .contacts-list__item{
+  .contacts-list__item {
     font-size: 13.54px;
     font-style: normal;
     font-weight: 400;
@@ -1807,7 +1811,7 @@ section .advantages-title {
     text-transform: uppercase;
   }
 
-  .contacts-list__item--title{
+  .contacts-list__item--title {
     font-size: 22.566px;
     font-style: normal;
     font-weight: 500;
@@ -1815,26 +1819,26 @@ section .advantages-title {
     margin-bottom: 11px;
   }
 
-  .contacts{
+  .contacts {
     display: flex;
     justify-content: flex-end;
     gap: 166px;
   }
 
-  .contacts-content{
+  .contacts-content {
     padding-top: 60px;
   }
 
 
 }
 
-@media (max-width: 1000px){
+@media (max-width: 1000px) {
   .main-contacts {
     background: url(../assets/img/r-768.svg) no-repeat left bottom,
     url(../assets/img/line-768.svg) no-repeat 184px 99%, url(../assets/img/bg-p-768.svg) repeat-x center bottom;
   }
 
-  .contacts-list__item{
+  .contacts-list__item {
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -1842,7 +1846,7 @@ section .advantages-title {
     text-transform: uppercase;
   }
 
-  .contacts-list__item--title{
+  .contacts-list__item--title {
     font-size: 16.991px;
     font-style: normal;
     font-weight: 500;
@@ -1850,21 +1854,21 @@ section .advantages-title {
     margin-bottom: 11px;
   }
 
-  .contacts{
+  .contacts {
     display: flex;
     justify-content: flex-end;
     gap: 130px;
   }
 
-  .contacts-content{
+  .contacts-content {
     padding-top: 22px;
   }
 
-  .contacts-list{
+  .contacts-list {
     padding: 16px;
   }
 
-  .contacts-list:last-child{
+  .contacts-list:last-child {
     padding-left: 26px;
   }
 }
@@ -1883,13 +1887,13 @@ section .advantages-title {
     gap: 35px;
   }
 
-  .contacts-content{
+  .contacts-content {
     flex-direction: column;
     align-items: flex-end;
   }
 
-  .contacts-list:last-child{
-    border-top: 1px solid #2529E8;
+  .contacts-list:last-child {
+    border-top: 1px solid #2529e8;
     border-left: none;
   }
 
@@ -1905,7 +1909,7 @@ section .advantages-title {
     padding: 16px 7px 16px 0;
   }
 
-  .contacts-list:last-child{
+  .contacts-list:last-child {
     padding-left: 0;
   }
 }
@@ -1922,11 +1926,11 @@ section .advantages-title {
   gap: 60px;
 }
 
-.main-feedback .title{
+.main-feedback .title {
   align-self: flex-end;
 }
 
-.feedback-text{
+.feedback-text {
   max-width: 956px;
   font-size: 21px;
   font-style: normal;
@@ -1936,7 +1940,7 @@ section .advantages-title {
 
 
 @media (max-width: 1300px) {
-  .feedback-text{
+  .feedback-text {
     max-width: 640px;
     font-size: 15px;
     font-style: normal;
@@ -1944,7 +1948,7 @@ section .advantages-title {
     line-height: 22.141px;
   }
 
-  .main-feedback .title{
+  .main-feedback .title {
     max-width: 672px;
   }
 
@@ -1966,7 +1970,7 @@ section .advantages-title {
     gap: 31px;
   }
 
-  .feedback-text{
+  .feedback-text {
     max-width: 495px;
     font-size: 12px;
     font-style: normal;
@@ -1994,7 +1998,7 @@ section .advantages-title {
     gap: 47px;
   }
 
-  .feedback-text{
+  .feedback-text {
     width: 87%;
     font-size: 16px;
     font-style: normal;
@@ -2005,6 +2009,10 @@ section .advantages-title {
     padding: 0 0 12px;
     margin: 0 0 100px 0;
     background: url(../assets/img/fb-bg.svg) repeat-x center top;
+  }
+
+  .tariffs-description {
+    margin-bottom: 42px;
   }
 }
 
