@@ -2014,6 +2014,14 @@ section .advantages-title {
   .tariffs-description {
     margin-bottom: 42px;
   }
+
+  .tariffs-content .title{
+    max-width: 350px;
+  }
+
+  section .advantages-title{
+    max-width: 305px;
+  }
 }
 
 
