@@ -31,7 +31,15 @@ body.no-scroll {
 }
 
 .header {
+  position: fixed;
+  width: 100%;
   padding: 35px 0;
+  z-index: 10;
+  background: #fff;
+}
+
+.header.scroll{
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.05);
 }
 
 .header-container {

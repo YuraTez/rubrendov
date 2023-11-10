@@ -10,3 +10,10 @@ $(".nav-list__item").on("click" , function (){
     $(".nav").toggleClass("active");
     $("body").removeClass("no-scroll");
 })
+
+$(".fake-header").height($(".header").outerHeight())
+
+window.addEventListener("scroll" , ()=>{
+    window.scrollY > 150 ?  $(".header").addClass("scroll") : $(".header").removeClass("scroll") ;
+
+})
